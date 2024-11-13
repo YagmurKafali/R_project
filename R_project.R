@@ -19,7 +19,7 @@ condition2 <- "autism"
 results <- data.frame(Gene = character(), PMID = character(), Title = character(), Abstract = character(), stringsAsFactors = FALSE)
 
 # Define path for intermediate results
-intermediate_file <- "/Users/yagmurkafali/Desktop/PubMed_Gene_Circadian_Autism_Intermediate.csv"
+intermediate_file <- "/<yourpathhere>/PubMed_Gene_Circadian_Autism_Intermediate.csv"
 
 # Load intermediate results if they already exist
 if (file.exists(intermediate_file)) {
