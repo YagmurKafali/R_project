@@ -74,4 +74,4 @@ for (gene_batch in gene_batches) {
 print(results)
 
 # OPTIONAL: Save final results to a separate CSV
-write.csv(results, "/Users/yagmurkafali/Desktop/PubMed_Gene_Circadian_Autism_Final_Results.csv", row.names = FALSE)
+write.csv(results, "/<yourpathhere>/PubMed_Gene_Circadian_Autism_Final_Results.csv", row.names = FALSE)
