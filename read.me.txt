@@ -1,0 +1,6 @@
+This R script is designed to search PubMed for articles
+that mention specific genes along with the conditions
+"circadian rhythm" and "autism."
+The script breaks down the gene list into manageable batches,
+queries PubMed for relevant articles, extracts information like titles and abstracts,
+and saves the results
